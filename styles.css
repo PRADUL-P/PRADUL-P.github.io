@@ -10534,7 +10534,7 @@ img {
 
 
   /* SCROLL BUTTON */
-  /* #myBtn {
+ #myBtn {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -10543,13 +10543,13 @@ img {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: white;
+    background-color: transparent;
     color: white;
     cursor: pointer;
     padding: 15px;
-    border-radius: 4px;
+    border-radius: 100px;
   }
   
   #myBtn:hover {
-    background-color: #555;
+    background-color: white;
   } */

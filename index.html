@@ -20,8 +20,8 @@
     href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
     rel="stylesheet" />
   <!-- Core theme CSS (includes Bootstrap)-->
-  <link href="css/styles.css" rel="stylesheet" />
-  <link rel="stylesheet" type="text/css" href="css/set1.css" />
+  <link href="styles.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="set1.css" />
 </head>
 
 <body id="page-top">
@@ -456,7 +456,9 @@
                     </div> -->
       </div>
       <br>
-      <button onclick="topFunction()" id="myBtn" title="Go to top" style="    float: right;background-color: transparent;"><i class="fa fa-arrow-up" style="font-size:36px;color: white;"></i></button>
+      <button onclick="topFunction()" id="myBtn" title="Go to top" 
+      style="    float: right;">
+      <i class="fa fa-chevron-circle-up fa-3x" aria-hidden="true" style="color: blue;"></i></button>
       <div class="social d-flex justify-content-center">
         <a class="mx-2" href="https://www.instagram.com/pradul_prashandan/"><i class="fab fa-instagram"></i></a>
         <a class="mx-2" href="https://www.facebook.com/pradul.prashandan/"><i class="fab fa-facebook-f"></i></a>
@@ -476,7 +478,7 @@
   <!-- Third party plugin JS-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
   <!-- Core theme JS-->
-  <script src="js/scripts.js"></script>
+  <script src="scripts.js"></script>
   <script>
    
   
@@ -497,7 +499,27 @@
               }
           })
       })
-  </script>
+ 
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 300|| document.documentElement.scrollTop > 300) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
 </body>
 
 </html>

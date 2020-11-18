@@ -886,7 +886,7 @@ figure.effect-dexter:hover figcaption::after {
 
 figure.effect-dexter figcaption {
 	padding: 3em;
-	text-align: left;
+	text-align: center;
 }
 
 figure.effect-dexter p {
@@ -1011,7 +1011,7 @@ figure.effect-zoe:hover p.icon-links a:focus {
 
 figure.effect-zoe p.description {
 	position: absolute;
-	bottom: 8em;
+	bottom: 3rem;
 	padding: 2em;
 	color: #fff;
 	text-transform: none;

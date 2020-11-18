@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="" />
   <meta name="author" content="" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <title>PRADUL P</title>
   <link rel="icon" style="border-radius: 15px;"
     href="https://scontent-maa2-1.cdninstagram.com/v/t51.2885-19/s320x320/26263092_523365514696487_7678916086569369600_n.jpg?_nc_ht=scontent-maa2-1.cdninstagram.com&_nc_ohc=QMXr7Tt9kjgAX-wIv9L&oh=1c64315a5c3114171431070a547df718&oe=5ED48753"
@@ -24,6 +25,7 @@
 </head>
 
 <body id="page-top">
+ 
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
@@ -39,11 +41,11 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about"></a></li> -->
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">ABOUT</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">SERVICES</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">GALLERY</a></li>
 
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">CONTACT</a></li>
         </ul>
       </div>
     </div>
@@ -177,8 +179,9 @@
   <!-- Projects-->
   <section class="projects-section bg-light" id="services">
     <div class="container pl-2">
-      <h1 class="text-center " style="padding-right: 2.5em;">Services</h1>
-      <div class="row">
+    
+      <h1 class="text-center " style="padding-right: 2em;padding-left: 2em;">Services</h1>
+      <div class="row "style="padding-right: 2em;padding-left: 2em;">
 
 
         <div class="col-md-3 pt-4">
@@ -312,10 +315,11 @@
               <img src="assets/ns.jpg" alt="img25" />
               <figcaption>
                 <!-- <span><strong>“Let us make our future now, and let us make our dreams tomorrow’s reality.”</strong> </p>
-                              </span>
+                              </span>-->
                            <p class="icon-links">
+                             
                                 <a href="#"><span class="icon-heart"></span></a>
-                                <a href="#"><span class="icon-eye"></span></a>
+                                <!-- <a href="#"><span class="icon-eye"></span></a>
                                 <a href="#"><span class="icon-paper-clip"></span></a>
                               </p> -->
                 <p class="description"><strong>“Let us make our future now, and let us make our dreams tomorrow’s
@@ -378,30 +382,32 @@
   </section>
   <!-- Signup-->
   <section class="signup-section" id="signup">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-        <h3>Contact Form</h3>
-        <br><br>
-        
-        <hr>
-        <br>
-        <form action="">
-          <label for="fname">First Name</label><br>
-          <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
-
-          <label for="lname">Email</label><br>
-          <input type="text" id="lname" name="email" placeholder="your email"><br>
-
-
-
-          <label for="subject">Subject</label><br>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
-
-          <input type="submit" value="Submit"><br>
-        </form>
-      </div>
-    </div>
+    <body>
+      <div class="container1">
+          <div style="text-align:center">
+            <h2>Contact Us</h2>
+            <p>Swing by for a cup of coffee, or leave us a message:</p>
+          </div>
+          <div class="row">
+            
+            <div class="column1">
+              <form id="submit-form" action="">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="name" placeholder="Your name..">
+                <label for="lname">Email</label>
+                <input type="text" id="lname" name="email" placeholder="Your last name..">
+                <label for="number">Mobile </label>
+                <input type="number" id="mobile" name="mobile" placeholder="your mobile no">
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="message" placeholder="Write something.." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+            <div class="column1">
+              <img src="assets/ns3.jpg" style="width:100%;border-radius: 1000px;border-color: blue;">
+            </div>
+          </div>
+        </div>
       <!-- <div class="col-md-10 col-lg-8 mx-auto text-center">
                         <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
                         <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
@@ -418,7 +424,7 @@
     <div class="container">
       <div class="row">
 
-        <div class="col-md-4 mb-3 mb-md-0">
+        <div class="col-md-6 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
               <i class="fas fa-envelope text-primary mb-2"></i>
@@ -428,7 +434,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-3 mb-md-0">
+        <div class="col-md-6 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
               <i class="fas fa-mobile-alt text-primary mb-2"></i>
@@ -449,6 +455,8 @@
                         </div>
                     </div> -->
       </div>
+      <br>
+      <button onclick="topFunction()" id="myBtn" title="Go to top" style="    float: right;background-color: transparent;"><i class="fa fa-arrow-up" style="font-size:36px;color: white;"></i></button>
       <div class="social d-flex justify-content-center">
         <a class="mx-2" href="https://www.instagram.com/pradul_prashandan/"><i class="fab fa-instagram"></i></a>
         <a class="mx-2" href="https://www.facebook.com/pradul.prashandan/"><i class="fab fa-facebook-f"></i></a>
@@ -457,6 +465,7 @@
       </div>
     </div>
   </section>
+ 
   <!-- Footer-->
   <footer class="footer bg-black small text-center text-white-50">
     <div class="container">Copyright 2020 @ PRADUL P</div>
@@ -469,15 +478,26 @@
   <!-- Core theme JS-->
   <script src="js/scripts.js"></script>
   <script>
-    function openTab(tabName) {
-      var i, x;
-      x = document.getElementsByClassName("containerTab");
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-      }
-      document.getElementById(tabName).style.display = "block";
-    }
-    </script>
+   
+  
+      $("#submit-form").submit((e)=>{
+          e.preventDefault()
+          $.ajax({
+              url:"https://script.google.com/macros/s/AKfycbyrKxfZ7EIUCmytTI2z32_Kvg4EKY4j_nROuv2R-w/exec",
+              data:$("#submit-form").serialize(),
+              method:"post",
+              success:function (response){
+                  alert("Form submitted successfully")
+                  window.location.reload()
+                  window.location.href="https://pradul-p.github.io/"
+              },
+              error:function (err){
+                  alert("Something Error")
+  
+              }
+          })
+      })
+  </script>
 </body>
 
 </html>

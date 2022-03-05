@@ -6,6 +6,7 @@ if("serviceWorker" in navigator){
     }).catch(error=>{
         console.log("service worker error")
         console.log(error)
+        
     })
 }else{
     alert("service worker not working")

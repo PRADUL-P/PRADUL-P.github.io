@@ -2,7 +2,7 @@
     "name" : "PRADUL P",
     "short_name" : "PRADUL P",
     "start_url" : ".",
-    "background_color":"blue",
+    "background_color":"green",
     "theme_color" :"#009578",
     "display": "standalone",
     "icons":[
